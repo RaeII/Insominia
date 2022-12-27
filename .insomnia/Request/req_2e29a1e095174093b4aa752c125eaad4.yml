@@ -1,0 +1,21 @@
+_id: req_2e29a1e095174093b4aa752c125eaad4
+type: Request
+parentId: fld_646d049ed3494ca4b50c97021558d712
+modified: 1671547513867
+created: 1671547462520
+url: "{{ _.url }}/transaction/getTransactionReceipt/:transaction"
+name: Get Transaction Receipt
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671545945834.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

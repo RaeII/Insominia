@@ -1,0 +1,21 @@
+_id: req_9304f63570cd4388b9ca78d441ba17b5
+type: Request
+parentId: fld_d75877acf16a4b25806b4589e2520d00
+modified: 1671547370904
+created: 1671547336492
+url: /getBlockWithTransactions/:block
+name: Get Block With Transactions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671544490213
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

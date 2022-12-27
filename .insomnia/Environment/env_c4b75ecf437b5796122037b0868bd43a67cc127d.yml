@@ -1,0 +1,14 @@
+_id: env_c4b75ecf437b5796122037b0868bd43a67cc127d
+type: Environment
+parentId: wrk_a6a80d034b0e4e5a838c164c7b08217e
+modified: 1671547076293
+created: 1671544490158
+name: Base Environment
+data:
+  url: localhoa
+dataPropertyOrder:
+  "&":
+    - url
+color: null
+isPrivate: false
+metaSortKey: 1671544490158

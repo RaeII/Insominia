@@ -1,0 +1,21 @@
+_id: req_fc78a8e354ba49bd8dac21dc37ddefbd
+type: Request
+parentId: fld_37bb97afcab541b68e1c7a6e5d032549
+modified: 1671721771323
+created: 1671721737381
+url: "{{ _.url }}/holder/getHoldersTolken/:token"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671721737381
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_67b6ce0bf7de4053a1d54d7688da155a
+type: Request
+parentId: fld_d75877acf16a4b25806b4589e2520d00
+modified: 1671547321695
+created: 1671544490163
+url: "{{ _.url }}/block/lastBlockNumber"
+name: Last Block Number
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671544490163
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

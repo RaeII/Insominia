@@ -1,0 +1,36 @@
+_id: req_22ddef9d03074656b41b50c281537f3f
+type: Request
+parentId: wrk_a6a80d034b0e4e5a838c164c7b08217e
+modified: 1672101969193
+created: 1672076283124
+url: "{{ _.url }}/sushi/getPrice"
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"network":5,
+    	"token0":{
+    		"adress":"0x65E2fe35C30eC218b46266F89847c63c2eDa7Dc7",
+    		"decimal":6
+    	},
+    	"token1":{
+    	  "adress":"0x9FD21bE27A2B059a288229361E2fA632D8D2d074",
+    	  "decimal":6
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672076283125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
