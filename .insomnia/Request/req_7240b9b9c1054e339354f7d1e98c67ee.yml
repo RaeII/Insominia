@@ -1,9 +1,9 @@
-_id: req_22ddef9d03074656b41b50c281537f3f
+_id: req_7240b9b9c1054e339354f7d1e98c67ee
 type: Request
-parentId: fld_ef5c23f26ecc40aea671c44b3b7b156d
-modified: 1672103788303
-created: 1672076283124
-url: "{{ _.url }}/sushi/getPrice"
+parentId: fld_ba55a668e03c459e951d401551bde8ce
+modified: 1672104165943
+created: 1672103804482
+url: "{{ _.url }}/uniswap/getPrice"
 name: New Request
 description: ""
 method: GET
