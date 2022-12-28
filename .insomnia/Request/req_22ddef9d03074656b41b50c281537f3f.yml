@@ -1,7 +1,7 @@
 _id: req_22ddef9d03074656b41b50c281537f3f
 type: Request
 parentId: fld_ef5c23f26ecc40aea671c44b3b7b156d
-modified: 1672103788303
+modified: 1672192407218
 created: 1672076283124
 url: "{{ _.url }}/sushi/getPrice"
 name: New Request
