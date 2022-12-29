@@ -1,16 +1,17 @@
 _id: req_22ddef9d03074656b41b50c281537f3f
 type: Request
 parentId: fld_ef5c23f26ecc40aea671c44b3b7b156d
-modified: 1672192407218
+modified: 1672325062643
 created: 1672076283124
-url: "{{ _.url }}/sushi/getPrice"
-name: New Request
+url: "{{ _.url }}/sushi/getOutputAmount"
+name: Get Out Put Amount
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
-    {
+    {  
+    	"valueInput":100000000,
     	"network":5,
     	"token0":{
     		"adress":"0x65E2fe35C30eC218b46266F89847c63c2eDa7Dc7",
