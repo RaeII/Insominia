@@ -1,25 +1,25 @@
-_id: req_22ddef9d03074656b41b50c281537f3f
+_id: req_217640b13bee40ceb972f164f418c7da
 type: Request
-parentId: fld_ef5c23f26ecc40aea671c44b3b7b156d
-modified: 1672666360834
-created: 1672076283124
-url: "{{ _.url }}/sushi/getOutputAmount"
-name: Get Out Put Amount
+parentId: fld_ba55a668e03c459e951d401551bde8ce
+modified: 1672692832116
+created: 1672349891713
+url: "{{ _.url }}/uniswap/getPriceTokensPool"
+name: Get Price Tokens Pool
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {  
-    	"valueInput":163306000,
-    	"network":5,
+    	"valueInput":1000000,
+    	"network":1,
     	"token0":{
-    		"adress":"0x65E2fe35C30eC218b46266F89847c63c2eDa7Dc7",
+    		"adress":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     		"decimal":6
     	},
     	"token1":{
-    	  "adress":"0x9FD21bE27A2B059a288229361E2fA632D8D2d074",
-    	  "decimal":6
+    	  "adress":"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    	  "decimal":18
     	}
     }
 parameters: []
@@ -27,7 +27,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1672076283125
+metaSortKey: -1671899010253
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

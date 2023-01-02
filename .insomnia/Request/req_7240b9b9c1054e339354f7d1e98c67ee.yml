@@ -1,7 +1,7 @@
 _id: req_7240b9b9c1054e339354f7d1e98c67ee
 type: Request
 parentId: fld_ba55a668e03c459e951d401551bde8ce
-modified: 1672325066477
+modified: 1672666887958
 created: 1672103804482
 url: "{{ _.url }}/uniswap/getOutputAmount"
 name: Get Out Put Amount
@@ -11,14 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {  
-    	"valueInput":100000000,
+    	"valueInput":1000000,
     	"network":5,
     	"token0":{
-    		"adress":"0x65E2fe35C30eC218b46266F89847c63c2eDa7Dc7",
+    		"adress":"0x9FD21bE27A2B059a288229361E2fA632D8D2d074",
     		"decimal":6
     	},
     	"token1":{
-    	  "adress":"0x9FD21bE27A2B059a288229361E2fA632D8D2d074",
+    	  "adress":"0x65E2fe35C30eC218b46266F89847c63c2eDa7Dc7",
     	  "decimal":6
     	}
     }

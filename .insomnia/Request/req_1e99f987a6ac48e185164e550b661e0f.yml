@@ -1,25 +1,25 @@
-_id: req_22ddef9d03074656b41b50c281537f3f
+_id: req_1e99f987a6ac48e185164e550b661e0f
 type: Request
-parentId: fld_ef5c23f26ecc40aea671c44b3b7b156d
-modified: 1672666360834
-created: 1672076283124
-url: "{{ _.url }}/sushi/getOutputAmount"
-name: Get Out Put Amount
+parentId: fld_691814561fab4d7b848ebb4e84234fea
+modified: 1672698832996
+created: 1672422987483
+url: "{{ _.url }}/arbitrage/arbitrageSushiUni"
+name: Sell in Uniswap
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {  
-    	"valueInput":163306000,
-    	"network":5,
+    	"valueInput":1000000,
+    	"network":1,
     	"token0":{
-    		"adress":"0x65E2fe35C30eC218b46266F89847c63c2eDa7Dc7",
+    		"adress":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     		"decimal":6
     	},
     	"token1":{
-    	  "adress":"0x9FD21bE27A2B059a288229361E2fA632D8D2d074",
-    	  "decimal":6
+    	  "adress":"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    	  "decimal":18
     	}
     }
 parameters: []
