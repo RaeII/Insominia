@@ -1,12 +1,12 @@
 _id: req_2f6da3c8e34944e697751c9ca63c4c25
 type: Request
 parentId: fld_25a812af4153449ebf71e33c1f06db04
-modified: 1671564663729
+modified: 1673535796169
 created: 1671547554619
 url: "{{ _.url }}/gas/getGasPriceDiary"
 name: Get Gas Price Diary
 description: ""
-method: POST
+method: GET
 body: {}
 parameters: []
 headers: []

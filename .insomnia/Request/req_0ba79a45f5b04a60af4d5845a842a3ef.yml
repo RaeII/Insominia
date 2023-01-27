@@ -1,7 +1,7 @@
 _id: req_0ba79a45f5b04a60af4d5845a842a3ef
 type: Request
 parentId: fld_691814561fab4d7b848ebb4e84234fea
-modified: 1672702157291
+modified: 1673462385650
 created: 1672422987485
 url: "{{ _.url }}/arbitrage/arbitrageUniSushi"
 name: Sell in Sushi
@@ -11,15 +11,15 @@ body:
   mimeType: application/json
   text: |-
     {  
-    	"valueInput":1000000,
+    	"valueInput":1000000000000000000,
     	"network":1,
     	"token0":{
-    		"adress":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    		"decimal":6
+    		"adress":"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    		"decimal":18
     	},
     	"token1":{
-    	  "adress":"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    	  "decimal":18
+    	  "adress":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    	  "decimal":6
     	}
     }
 parameters: []

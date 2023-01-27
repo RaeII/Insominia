@@ -1,9 +1,11 @@
 _id: req_353e3ef992e347e089e9e77bf77c61ea
 type: Request
 parentId: fld_646d049ed3494ca4b50c97021558d712
-modified: 1671547519313
+modified: 1673536690699
 created: 1671547401456
-url: "{{ _.url }}/transaction/getTransaction/:transaction"
+url: "{{ _.url
+  }}/transaction/getTransaction/0x03ca478e87348db34e4bf8336162f8d55197d55ed6737\
+  451bd38ab7239be342d"
 name: Get Transaction
 description: ""
 method: GET

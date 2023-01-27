@@ -1,7 +1,7 @@
 _id: req_217640b13bee40ceb972f164f418c7da
 type: Request
 parentId: fld_ba55a668e03c459e951d401551bde8ce
-modified: 1672692832116
+modified: 1673374164119
 created: 1672349891713
 url: "{{ _.url }}/uniswap/getPriceTokensPool"
 name: Get Price Tokens Pool
@@ -11,15 +11,15 @@ body:
   mimeType: application/json
   text: |-
     {  
-    	"valueInput":1000000,
+    	"valueInput":1000000000000000000,
     	"network":1,
     	"token0":{
-    		"adress":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    		"decimal":6
+    		"adress":"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    		"decimal":18
     	},
     	"token1":{
-    	  "adress":"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    	  "decimal":18
+    	  "adress":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    	  "decimal":6
     	}
     }
 parameters: []

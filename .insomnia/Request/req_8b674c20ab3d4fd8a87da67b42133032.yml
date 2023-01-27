@@ -1,7 +1,7 @@
 _id: req_8b674c20ab3d4fd8a87da67b42133032
 type: Request
 parentId: fld_ef5c23f26ecc40aea671c44b3b7b156d
-modified: 1672350118970
+modified: 1673549467669
 created: 1672349921220
 url: "{{ _.url }}/sushi/getPriceTokensPool"
 name: Get Price Tokens Pool
@@ -11,13 +11,13 @@ body:
   mimeType: application/json
   text: |-
     {  
-    	"network":5,
+    	"network":1,
     	"token0":{
-    		"adress":"0x65E2fe35C30eC218b46266F89847c63c2eDa7Dc7",
-    		"decimal":6
+    	  "adress":"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    	  "decimal":18
     	},
     	"token1":{
-    	  "adress":"0x9FD21bE27A2B059a288229361E2fA632D8D2d074",
+    	  "adress":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
     	  "decimal":6
     	}
     }
